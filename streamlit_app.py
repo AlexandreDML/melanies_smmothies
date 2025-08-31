@@ -45,5 +45,5 @@ if ingredients_list:
 
 
 #new section to display moothiefroot nutrition information
-moothiefroot_response = requsets.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+moothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
 st.text(moothiefroot_response)
